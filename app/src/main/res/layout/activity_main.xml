@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:src="@drawable/title" />
+
+
+    <TextView
+        android:id="@+id/tv_Show"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="請輸入使用者代號"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/et_token"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/btn_Show"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="login_onclick"
+        android:text="登入"/>
+</LinearLayout>
